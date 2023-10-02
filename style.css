@@ -6,7 +6,10 @@
 .banner{
   width: 100%;
   height: 100vh;
-  Atlanta Art.jpg
+  background-image: linear
+  -gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(atlanta.jpg)
+  background-size:cover;
+  background-position: center;
 
 }
   
