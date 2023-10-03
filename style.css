@@ -29,6 +29,11 @@ html {
   text-transform: uppercase;
 }
 
+li: hover{
+  background-color: #808080;
+}
+
+
 
 .content{
   width: 100%;
