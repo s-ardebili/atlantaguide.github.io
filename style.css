@@ -29,7 +29,7 @@ html {
   text-transform: uppercase;
 }
 
-li: hover{
+ul li: hover{
   background-color: #808080;
 }
 
