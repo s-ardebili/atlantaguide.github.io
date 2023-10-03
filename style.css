@@ -29,7 +29,7 @@ html {
   text-transform: uppercase;
 }
 
-ul li: hover{
+.navbar ul li: hover{
   background-color: #808080;
 }
 
@@ -68,11 +68,11 @@ button{
   overflow: hidden;
   
 }
-.button {
+button {
   transition-duration: 0.4s;
 }
 
-.button:hover {
+button:hover {
   background-color: #4CAF50; 
   color: white;
 }
