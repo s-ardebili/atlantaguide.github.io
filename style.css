@@ -10,6 +10,7 @@ body {
   background-image: linear
   -gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))
   background-position: center;
+  background-repeat: no-repeat;
 }
   .navbar{
     width: 85%
@@ -30,19 +31,8 @@ body {
   color: #fff;
   text-transform: uppercase;
 }
-.navbar ul li::after{
-  content: '';
-  height:3px;
-  width: 0;
-  background: #009688
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  transition: 0.5s;
-}
-.navbar ul li:hover::after{
-  width: 100%;
-}
+
+
 .content{
   width: 100%;
   position: absolute;
@@ -77,21 +67,5 @@ button{
   
 }
 
-span{
-  background: #009688;
-  height: 100%;
-  width: 0;
-  border-radius: 25px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
-  transition: 0.5s;
-}
-button: hover span{
-  width: 100%;
-}
-button: hover{
-  border: none;
-}
+
 
