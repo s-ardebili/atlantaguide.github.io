@@ -15,9 +15,9 @@ html {
 .nav {
   width: 80%;
   margin: 0 auto;
-  background: #fff;
+  background: none;
   padding: 50px 0;
-  box-shadow: 0px 5px 0px #dedede;
+  
 }
 .nav ul {
   list-style: none;
@@ -63,7 +63,7 @@ html {
   height: 1px;
   content: '.';
   color: transparent;
-  background: #F1C40F;
+  background: #008CBA;
   visibility: none;
   opacity: 0;
   z-index: -1;
