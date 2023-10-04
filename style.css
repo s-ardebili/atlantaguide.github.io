@@ -3,12 +3,15 @@
   padding: 0;
   font-family: Allerta Stencil;
 }
+/* background image */
 html {
   background: url(atlanta.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
   overflow: hidden;
 }
+/*Navigation*/
+
   navbar{
     width: 85%;
     margin: auto;
@@ -88,6 +91,8 @@ navbar.shift ul li a:hover:after {
   line-height: 25px;
 
 }
+/*Homescreen buttons */
+
 .button{
   width: 200px;
   padding: 15px 0;
