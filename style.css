@@ -30,7 +30,7 @@ html {
   display: block;
   padding: 15px;
   text-decoration: none;
-  color: #aaa;
+  color: white;
   font-weight: 800;
   text-transform: uppercase;
   margin: 0 10px;
@@ -41,7 +41,7 @@ html {
   transition: all .5s;
 }
 .nav ul li a:hover {
-  color: #555;
+  color: white;
 }
 
 .nav ul li a {
