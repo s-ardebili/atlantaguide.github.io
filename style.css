@@ -49,7 +49,7 @@ html {
   z-index: 1;
 }
 .nav ul li a:hover {
-  color: #91640F;
+  color: white;
 }
 .nav ul li a:after {
   display: block;
