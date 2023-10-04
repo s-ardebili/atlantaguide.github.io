@@ -29,17 +29,13 @@ html {
   text-transform: uppercase;
 }
 
- .navbar ul li#1: hover{
-  background-color: #808080;
+.navbar ul li a,
+.navbar ul li a:after,
+.navbar ul li a:before {
+  transition: all .5s;
 }
-.navbar ul li#2: hover{
-  background-color: #808080;
-}
-.navbar ul li#3: hover{
-  background-color: #808080;
-}
-.navbar ul li#4: hover{
-  background-color: #808080;
+.navbar ul li a:hover {
+  color: #555;
 }
 
 
