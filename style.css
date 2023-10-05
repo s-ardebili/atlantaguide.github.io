@@ -12,6 +12,13 @@
   overflow: hidden;
 
 }
+/* logo */
+.logo { 
+    width: 150px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
 
 /*Navigation*/
 
@@ -131,12 +138,6 @@
   color: white;
 }
 
-/* logo */
-.logo { 
-    width: 150px;
-    cursor: pointer;
-    opacity: 0.5;
-}
 
 
 
