@@ -129,12 +129,9 @@ html {
 }
 
 /* logo */
-.logo img {
-    position: relative;
-    width: 150px;
-    float:left;
-    margin-top:16px;
-    cursor: pointer;
+.logo { 
+    width: 120px;
+    curose: pointer;
    
 }
 
