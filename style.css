@@ -129,14 +129,14 @@ html {
 }
 
 /* logo */
-.logo{ 
-	position:fixed; 
-	top:0; 
-	left:0; 
-	width: 400px;
-        height: 400px;
-} 
-
+.logo {
+    position: relative;
+    width: 150px;
+    float:left;
+    margin-top:16px;
+    cursor: pointer;
+   
+}
 
 
 
