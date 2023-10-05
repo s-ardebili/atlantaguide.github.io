@@ -4,13 +4,12 @@
   font-family: Allerta Stencil;
 }
 /* background image */
-.banner{
-  width: 100%;
+html{
+  background : url (atlanta.jpg) no-repeat center center fixed;
+  background-size: cove3r;
   height: 100%;
-  background: url(atlanta.jpg)no-repeat center center fixed;
-  background-size:cover;
   overflow: hidden;
-
+  
 }
 /* logo */
 .logo { 
