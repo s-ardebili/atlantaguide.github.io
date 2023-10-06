@@ -24,7 +24,8 @@
     width: 150px;
     cursor: pointer;
     opacity: 0.5;
-    color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url("Ardebili's_Guides-logos_transparent.png"))
     margin-top:20px;
     position:absolute;
     left:0;
