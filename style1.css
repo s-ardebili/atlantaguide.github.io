@@ -1,8 +1,11 @@
-*{
+body, html{
+  height: 100%;
   margin: 0;
   padding: 0;
   font-family: Allerta Stencil;
+  overflow-x: hidden;
 }
+
   .image {
       position: relative;
       height: 100%;
