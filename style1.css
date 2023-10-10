@@ -2,16 +2,22 @@
   margin: 0;
   padding: 0;
   font-family: Allerta Stencil;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
+
   .image {
-      position: relative;
+      position: absolute;
       height: 100%;
+      width: 100%;
       background-image: url(events.jpg);
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
-      overflow: auto;
+      
+      
+      
     }
 
 .overlay {
@@ -19,7 +25,7 @@
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
-   color: white;
+   color: #008CBA;
    font-size: 48px;
    font-weight: bold;
    text-align: center;
@@ -114,6 +120,36 @@
   height: 100%;
 }
 
+
+.event-info {
+  color: black;
+}
+
+.event-info h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.event-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.event-info li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.event-info li strong {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.event-info li a {
+  color: #008CBA;
+  text-decoration: none;
+}
 
 
 
