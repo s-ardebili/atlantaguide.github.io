@@ -120,7 +120,7 @@
   height: 100%;
 }
 
-
+/* event content */
 .event-info {
   color: black;
   text-align: center;
@@ -150,7 +150,59 @@
 .event-info li a {
   color: #008CBA;
   text-decoration: none;
+  
 }
+
+/* more info hove3r */
+.event-info li a  {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #008CBA;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 10px;
+  
+}
+.event-info li a ,
+.event-info li a :after,
+.event-info li a :before {
+  transition: all .5s;
+}
+.event-info li a :hover {
+  color: white;
+}
+
+.event-info li a  {
+  position:relative;
+  z-index: 1;
+}
+.event-info li a :hover {
+  color: white;
+}
+.event-info li a :after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 19%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: #008CBA;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+.event-info li a :hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
 
 
 
