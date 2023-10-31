@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Allerta Stencil;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+/* image url:  <a href = "https://thesoutherneronline.com/7641/lifestyle/ae/skyview-helps-city-enter-urban-ferris-wheel-craze-2/"><img src = "wheel.jpg"/></a> */
+
+  .image {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-image: url(wheel.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+
+
+
+    }
+
+.overlay {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: black;
+   font-size: 48px;
+   font-weight: bold;
+   text-align: center;
+
+
+ }
+
+    .content {
+      position: absolute;
+      top: 100%;
+      width: 100%;
+      height: 700px;
+      background: white;
+    }
+
+
+/* logo */
+.logo { 
+    width: 150px;
+    cursor: pointer;
+    opacity: 0.5;
+    margin-top:20px;
+    position:absolute;
+    filter: invert(100%);
+    left:0;
+    top:0;
+
+}
+/*Navigation*/
+
+.nav {
+  width: 80%;
+  margin: 0 auto;
+  background: none;
+  padding: 50px 0;
+
+}
+.nav ul {
+  list-style: none;
+  text-align: center;
+}
+.nav ul li {
+  display: inline-block;
+}
+.nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+.nav ul li a,
+.nav ul li a:after,
+.nav ul li a:before {
+  transition: all .5s;
+}
+.nav ul li a:hover {
+  color: white;
+}
+
+.nav ul li a {
+  position:relative;
+  z-index: 1;
+}
+.nav ul li a:hover {
+  color: white;
+}
+.nav ul li a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: #008CBA;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+.nav ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+/* Attraction */
+.things-info {
+  color: black;
+  text-align: center;
+}
+
+.things-info h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.things-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.things-info li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.things-info li strong {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.things-info li a {
+  color: #008CBA;
+  text-decoration: none;
+
+}
+
+/* visit their site hover */
+.things-info li a  {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #008CBA;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 10px;
+
+}
+.things-info li a ,
+.things-info li a :after,
+.things-info li a :before {
+  transition: all .5s;
+}
+.food-info li a :hover {
+  color: white;
+}
+
+.things-info li a  {
+  position:relative;
+  z-index: 1;
+}
+.things-info li a :hover {
+  color: white;
+}
+.things-info li a :after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 30%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: #008CBA;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+.things-info li a :hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
