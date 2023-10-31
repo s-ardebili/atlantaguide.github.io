@@ -37,7 +37,7 @@
       position: absolute;
       top: 100%;
       width: 100%;
-      height: 800px;
+      height: 1600px;
       background: white;
     }
 
@@ -49,12 +49,19 @@
     opacity: 0.5;
     margin-top:20px;
     position:absolute;
-    filter:invert(100%);
+
     left:0;
     top:0;
   
 }
 
+
+.food-info h3 {
+  font-size: 24px; 
+  margin-bottom: 20px; 
+  border-bottom: 2px solid #008CBA; 
+  padding-bottom: 10px; 
+}
 
 /*Navigation*/
 
@@ -119,3 +126,88 @@
   visibility: visible;
   height: 100%;
 }
+/* dining content */
+.food-info {
+  color: black;
+  text-align: center;
+}
+
+.food-info h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.food-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.food-info li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.food-info li strong {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.food-info li a {
+  color: #008CBA;
+  text-decoration: none;
+
+}
+
+/* visit their site hove3r */
+.food-info li a  {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #008CBA;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 10px;
+
+}
+.food-info li a ,
+.food-info li a :after,
+.food-info li a :before {
+  transition: all .5s;
+}
+.food-info li a :hover {
+  color: white;
+}
+
+.food-info li a  {
+  position:relative;
+  z-index: 1;
+}
+.food-info li a :hover {
+  color: white;
+}
+.food-info li a :after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 30%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: #008CBA;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+.food-info li a :hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+
+
